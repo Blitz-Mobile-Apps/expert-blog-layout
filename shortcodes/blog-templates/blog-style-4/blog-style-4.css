@@ -1,0 +1,67 @@
+/* Blog Style 4 */
+
+.blog-4-date p {
+
+    line-height: 0px;
+
+    text-transform: capitalize;
+
+    font-size: 24px;
+
+}
+
+
+
+.blog-4-date {
+
+    background-color: #fff;
+
+    display: inline-block;
+
+    position: absolute;
+
+    top: 12px;
+
+    left: 30px;
+
+    text-align: center;
+
+    padding: 0px 20px;
+
+    z-index: 1;
+
+}
+
+
+
+.blog-4-date .date-by-day h3{
+
+    font-size: 24px;
+    color:#000;
+
+}
+
+
+
+.blog-4-date .date-by-month p{
+
+    font-size: 14px;
+
+    color:#000;
+    
+    padding-bottom: 14px;
+
+}
+
+
+
+.blog-4-text a {
+
+    font-weight: bold;
+
+    font-size: 18px;
+
+}
+
+
+

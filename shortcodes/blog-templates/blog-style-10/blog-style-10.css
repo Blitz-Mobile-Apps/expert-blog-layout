@@ -1,0 +1,37 @@
+.blog-style-33 h1 {
+    font-size: 30px;
+    line-height: 32px;
+    background-color: #fff;
+    width: 400px;
+    padding: 13px 0px 13px 0px;
+    font-weight: 700;
+}
+
+.blog-style-33 .image-sec {
+    position: relative;
+    z-index: -1;
+}
+
+.blog-style-33 p {
+    word-break: break-all;
+}
+
+.blog-style-33 .image-sec img {
+    height: 295px;
+    object-fit: cover;
+}
+
+.blog-style-33 h4.head-4 {
+    color: green;
+    font-size: 19px;
+    line-height: 21px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.blog-style-33 h4.head-4 span {
+    color: #000;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ccc;
+}

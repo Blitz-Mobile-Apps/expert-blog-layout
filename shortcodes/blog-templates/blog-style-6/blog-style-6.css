@@ -1,0 +1,72 @@
+/*Blog 6 Style*/
+
+
+
+.blog-6 .blog-content {
+
+    padding: 10px 30px 40px;
+
+    background: #fff ;
+
+}
+
+
+
+.blog-6 .blog-content {
+
+    text-align:center;
+
+}
+
+
+
+.blog-6 .blog-content a {
+
+    text-decoration: none ;
+
+    color: #fff ;
+
+    background-color: #109bba ;
+
+    padding: 14px 24px;
+
+    border-radius:3px;
+
+    font-weight: bold;
+
+    font-size: 14px;
+
+}
+
+
+
+.blog-6 .blog-content p {
+
+    padding-bottom: 20px;
+
+}
+
+
+.blog-section .blog-6 .blog-title {
+    padding-top: 14px;
+}
+
+.blog-6 .blog-date:after {
+
+    content: '';
+
+    width: 44px;
+
+    height: 2px;
+
+    background-color: #109bba;
+
+    position: absolute;
+
+    left: 0px;
+
+    right: 0px;
+
+    margin: 0px auto;
+
+}

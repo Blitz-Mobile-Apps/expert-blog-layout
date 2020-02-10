@@ -1,0 +1,32 @@
+/* Blog Style 3 */
+
+.blog-3 {
+    border: 1px solid #eee;
+    border-radius: 10px;
+    transition: .8s;
+}
+
+.blog-3:hover img {
+    transform: scale3d(1.2, 1.2, 1.2);
+}
+
+.blog-3 h2 {
+    text-align: center;
+ }
+
+.blog-3 p {
+    text-align: center;
+    color: #7d7a7a;
+    padding-bottom:40px;
+}
+
+.blog-3-content a {
+    color: #fff;
+    background-image: linear-gradient(to right, #146208, #00684c, #0069aa, #0061f6, #121beb);
+    padding: 6px 32px;
+    border-radius: 12px;
+    position: absolute;
+    left: 30%;
+    bottom: -16px;
+}
+

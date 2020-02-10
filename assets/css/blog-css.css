@@ -1,0 +1,24 @@
+body .blog-section .featured-image {
+
+    width: 100%;
+
+    overflow: hidden;
+
+}
+
+
+body .blog-section .featured-image img {
+    display: block;
+    width: 100% !important;
+    transition: .9s;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+
+body .blog-section .blog-title h2{
+
+    font-size:24px;
+
+}

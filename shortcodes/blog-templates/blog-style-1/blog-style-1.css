@@ -1,0 +1,35 @@
+/* Blog Style 1 */
+.blog-1{
+    box-shadow: 1px 2px 5px 0px grey; 
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+    box-shadow: 0 22px 43px rgba(0, 0, 0, 0.32);
+    cursor: pointer;
+    border-radius: 5px;
+    transition:.9s;
+}
+
+.blog-1:hover img {
+    transform: scale3d(1.2, 1.2, 1.2);
+}
+
+.blog-1-text{
+    padding:10px;
+}
+
+.blog-1 h2 {
+    text-align: center;
+    line-height: 31px;
+    font-weight: 800;
+    color: #000;
+}
+
+.blog-1 p {
+    text-align: center;
+    padding-top: 9px;
+    font-weight: 600;
+    padding-bottom: 26px !important;
+	padding-left: 10px;
+    padding-right: 10px;
+}

@@ -1,0 +1,4 @@
+<?php
+// Slience is gold
+
+?>

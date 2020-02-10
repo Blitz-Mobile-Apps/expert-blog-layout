@@ -1,0 +1,38 @@
+
+/*Blog Style 7*/
+
+.blog-7 {
+    text-align: center;
+   box-shadow: 0 0 14px #d8e4f0;
+   border-radius: 0px 0px 20px 20px;
+}
+
+.blog-7 p {
+}
+
+.blog-7 h1 {
+    color: #071f5d;
+    font-size: 23px;
+    line-height: 25px;
+    padding-top: 15px;
+}
+.blog-7 .date h3 {
+    color: #071f5d;
+}
+
+.blog-text h2 {
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.blog-text a {
+    color: #21386d;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.blog-text {
+    padding: 16px;
+}
+.blog-7 img {
+    width: 100%;
+}

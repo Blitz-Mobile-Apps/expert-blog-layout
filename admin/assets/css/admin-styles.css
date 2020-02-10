@@ -1,0 +1,541 @@
+.ebl-header {
+
+    background: #fff;
+
+    height: 92px;
+
+    padding-top: 4px;
+
+    margin-top: 18px;
+
+}
+
+
+
+.ebl-header .ebl-logo {
+
+    height: 85px;
+
+    position: absolute;
+
+    right: 0;
+
+}
+
+
+
+.ebl-header h2{
+
+    font-size: 30px;
+
+    text-transform: uppercase;
+
+}
+
+
+
+.ebl-header h2 span {
+
+    font-size: 10px;
+
+    color: #808080;
+
+}
+
+
+
+.blog-selection ul li {
+
+    display: inline-block;
+
+    padding-left: 50px;
+
+    padding-bottom: 24px;
+
+    width: 24%;
+
+}
+
+.blog-selection ul li img {
+
+    height: 100px;
+
+    margin: 0 auto;
+
+    display: table;
+
+}
+
+
+
+.blog-selection ul li p{
+
+	text-align: center;
+
+    color: #000;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+}
+
+
+
+.col-selection {
+
+    padding: 16px 0px;
+
+}
+
+
+
+.col-selection .ebl-col-md-4 select {
+
+    width: 100%;
+
+    border-radius: 7px;
+
+    border: 2px solid #eee;
+
+    padding-left: 24px;
+
+        height: 50px;
+
+}
+
+
+
+.cat-selection {
+
+    padding: 16px 0px;
+
+}
+
+.cat-selection span{
+
+    position: absolute;
+
+    bottom: -24px;
+
+    left: 24px;
+
+    font-size: 14px;
+
+    font-style: italic;
+
+    color: #808080;
+
+}
+
+
+
+.cat-selection .ebl-col-md-4 select {
+
+    width: 100%;
+
+    border-radius: 7px;
+
+    border: 2px solid #eee;
+
+    padding-left: 24px;
+
+        height: 50px;
+
+}
+
+
+
+.count-selection {
+
+    padding: 16px 0px;
+
+}
+
+
+
+.count-selection .ebl-col-md-4 input[type="number"] {
+
+    width: 100%;
+
+    border-radius: 7px;
+
+    border: 2px solid #eee;
+
+    padding-left: 24px;
+
+        height: 50px;
+
+}
+
+
+
+.count-selection span{
+
+	position: absolute;
+
+    bottom: -24px;
+
+    left: 24px;
+
+    font-size: 14px;
+
+    font-style: italic;
+
+    color: #808080;
+
+}
+
+
+
+.generate-shortcode {
+
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.generate-shortcode button {
+
+    background: #46B450;
+
+    padding: 14px 40px;
+
+    border-radius: 6px;
+
+    border: 1px solid #46B450;
+
+    color: #fff;
+
+    font-size: 14px;
+
+    cursor: pointer;
+
+}
+
+
+
+.generate-shortcode {
+
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+
+}	
+
+
+
+.ebl-blog-shortcode {
+
+    margin: 47px 0px;
+
+    display: none;
+
+}
+
+.ebl-blog-shortcode span {
+
+    background: #c7c7c7;
+
+    padding: 20px 20px 20px 20px;
+
+    color: #000;
+
+    font-weight: 600;
+
+    border-radius: 3px;
+
+}
+
+
+
+.ebl-blog-shortcode p.copy-disclaimer {
+
+    font-size: 14px;
+
+    font-style: italic;
+
+    color: #808080;
+
+    margin: 0px;
+
+}
+
+
+
+.ebl-blog-shortcode .copy-icon:after {
+
+    content: "Copy";
+
+    font-size: 12px;
+
+    text-align: center;
+
+    position: absolute;
+
+}
+
+
+
+.ebl-blog-shortcode .copy-icon {
+
+    background: transparent;
+
+    position: relative;
+
+    left: -12px;
+
+    top: -26px;
+
+    color: #847c7c;
+
+    cursor: pointer;
+
+}
+
+
+
+.fancybox-overlay{
+
+    background: rgb(35, 40, 45, 0.7) !important;
+
+}
+
+
+
+/* Ressponsive */
+
+@media (max-width:1024px){
+
+    .blog-selection ul li {
+
+    display: inline-block;
+
+    padding-left: 10px;
+
+    padding-bottom: 24px;
+
+    width: 48%;
+
+}
+
+.ebl-header {
+
+    height: 78px;
+
+ }
+
+ .ebl-header .ebl-logo {
+
+    height: 68px;
+
+    position: absolute;
+
+    right: -17px;
+
+}
+
+}
+
+
+
+@media (max-width:800px){
+
+    #wpbody .cat-selection .ebl-col-md-4 select{
+
+        height: 50px;
+
+        font-size: 16px;
+
+    }
+
+    #wpbody .col-selection .ebl-col-md-4 select{
+
+        height: 50px;
+
+        font-size: 16px;
+
+    }
+
+}
+
+
+
+@media(max-width:480px){
+
+    .ebl-header  .ebl-col-md-1{
+
+        display:none;
+
+    }
+
+    .ebl-header h2 {
+
+    font-size: 30px;
+
+    text-transform: uppercase;
+
+    padding-left: 14px;
+
+}
+
+.blog-selection ul li {
+
+    width: 100%;
+
+}
+
+.ebl-blog-shortcode span {
+
+    width: 100%;
+
+    font-size: 12px;
+
+}
+
+.ebl-blog-shortcode p.copy-disclaimer {
+
+    margin: 22px 0px;
+
+}
+
+.ebl-blog-shortcode .copy-icon {
+
+    display: none;
+
+}
+
+}
+
+
+
+@media (max-width:411px){
+
+    .ebl-header h2 {
+
+    font-size: 22px;
+
+}
+
+.ebl-blog-shortcode span {
+
+    width: 100%;
+
+    font-size: 8px;
+
+}
+
+}
+
+
+
+
+
+/* Documentaion Page */
+
+.ebl-wrapper{
+
+    padding-left: 30px;
+
+}
+
+.ebl-wrapper h1 {
+
+    font-size: 44px;
+
+    line-height: 1.2;
+
+    font-weight: 300;
+
+    margin: 0 0 20px 0;
+
+    padding: 0;
+
+    padding-top: 30px;
+
+}
+
+
+
+.ebl-wrapper p{
+
+    color: #868B96;
+
+    font-weight: normal;
+
+    font-size: 18px;
+
+    line-height: 1.6;
+
+    margin: 0;
+
+}
+
+
+
+.ebl-intro-wrapper{
+
+    padding: 30px;
+
+    background: #fff;
+
+    margin-left: 16px;
+
+    margin-top: 30px;
+
+}
+
+
+
+.ebl-intro-wrapper p {
+
+    font-size: 16px;
+
+    line-height: 1.7;
+
+}
+
+
+
+.ebl-intro-wrapper .ebl-points ul {
+
+    margin: 0 0 2% 0;
+
+    background: #F8F8F8;
+
+    padding: 2% 0% 2% 5%;
+
+    list-style-type: square;
+
+    font-size: 16px;
+
+    line-height: 1.8;
+
+}
+
+
+
+.ebl-intro-wrapper .ebl-points ul li {
+
+    border-bottom: dotted 1px #ddd;
+
+    margin-bottom: 20px;
+
+    padding-bottom: 20px;
+
+}
+
+
+
+.ebl-intro-wrapper .ebl-points ul li:last-child{
+
+    border-bottom: none;
+
+    margin-bottom: 0;
+
+    padding-bottom: 0;
+
+}
